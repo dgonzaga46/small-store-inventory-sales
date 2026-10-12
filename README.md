@@ -2,8 +2,10 @@ Small Store Inventory and Sales System
 
 Project Overview
 The Small Store Inventory and Sales System is a simple information system developed using Python and FastAPI. It helps small store owners manage their products, check available stocks, and record sales transactions in an organized way.
+
 Problem Statement
 Managing products and sales manually can be difficult, especially when keeping track of available stocks and calculating the total amount of each sale. This system helps solve these problems by storing product information in a database and automatically updating the stock whenever a sale is recorded.
+
 Main Features
 Add new products to the inventory.
 View the list of products and their details.
@@ -18,12 +20,14 @@ Products – stores the product name, price, and available stock.
 Sales – stores the date and total amount of each sale.
 Sale Items – records the products and quantities included in each sale.
 Primary keys identify each record, while foreign keys connect the related tables.
+
 Technologies Used
 Python
 FastAPI
 SQLite
 Pydantic
 Uvicorn
+
 How to Run the Project
 Install Python on your computer.
 Open a terminal in the project folder.
